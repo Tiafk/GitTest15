@@ -1,0 +1,48 @@
+.call {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #EAF0FA;
+}
+
+.set {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 53px 90px 128px 390px 214px 1fr 1fr;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  padding: 15px 40px 15px 0;
+  color: #122945;
+}
+
+.element {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.number .text {
+  color: #5E7793;
+}
+
+.duration {
+  display: flex;
+  justify-content: end;
+}
+
+.element .source {
+  color: #5E7793;
+  max-width: 197px;
+}

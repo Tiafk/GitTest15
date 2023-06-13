@@ -1,0 +1,55 @@
+.filter {
+  display: flex;
+  position: relative;
+}
+
+.container {
+  cursor: pointer;
+  display: flex;
+}
+
+.container p {
+  user-select: none;
+  margin-right: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 148%;
+  color: #5E7793;
+  opacity: 0.87;
+}
+
+.container:hover p {
+  color: #002CFB;
+}
+
+.container svg {
+  transition: .3s ease;
+}
+
+.container:hover path {
+  fill: #002CFB;
+}
+
+/* .item:first-child {
+  cursor: default;
+  pointer-events: none;
+  color: #002CFB;
+  background: #DEE4FE;
+} */
+
+.item {
+  user-select: none;
+  cursor: pointer;
+  max-width: 100%;
+  list-style: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #899CB1;
+  padding: 6px 0 6px 21px;
+}
+
+.item:hover {
+  background: #DEE4FE;
+  color: #122945;
+}

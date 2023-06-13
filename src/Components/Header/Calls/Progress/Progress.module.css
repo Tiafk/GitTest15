@@ -1,0 +1,59 @@
+.title {
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 148%;
+  margin-bottom: 7px;
+}
+
+.text {
+  color: #122945;
+  margin-right: 3px;
+}
+
+.new_score {
+  color: #28A879;
+}
+
+.quality_score {
+  color: #FFD500;
+}
+
+.conversion_score {
+  color: #EA1A4F;
+}
+
+.progress_bar {
+  width: 100%;
+  height: 6px;
+  background: #DEE6F5;
+  border-radius: 12px;
+}
+
+.new_progress {
+  display: flex;
+  background: #28A879;
+  width: 40%;
+  height: 6px;
+  border-radius: 12px 0px 0px 12px;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.quality_progress {
+  display: flex;
+  background: #FFD500;
+  width: 40%;
+  height: 6px;
+  border-radius: 12px 0px 0px 12px;
+  z-index: 10;
+}
+
+.conversion_progress {
+  display: flex;
+  background: #EA1A4F;
+  width: 67%;
+  height: 6px;
+  border-radius: 12px 0px 0px 12px;
+  z-index: 10;
+}

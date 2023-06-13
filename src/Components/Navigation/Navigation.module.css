@@ -1,0 +1,99 @@
+.navigation {
+  display: flex;
+  width: 100%;
+  max-width: 240px;
+  flex-direction: column;
+  grid-area: nav;
+  background: #091336;
+  color: #fff;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  padding: 20px 0 32px 12px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav_link img {
+  margin-right: 12px;
+}
+
+.nav_link {
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 14px 17px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  background: transparent;
+  transition: .1s ease;
+}
+
+.nav_link:hover {
+  background: rgba(216, 228, 251, 0.32);
+  border-left: 3px solid #002CFB;
+  color: #fff;
+  transition: .1s ease;
+}
+
+.active {
+  /* background: rgba(216, 228, 251, 0.32); */
+  /* border-left: 3px solid #002CFB; */
+  color: #fff;
+}
+
+.btn_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin-top: 64px;
+}
+
+.btn_container button {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  width: 200px;
+  padding: 13px 20px 14px 24px;
+  align-items: center;
+  background: #005FF8;
+  border-radius: 4px;
+  border: 0;
+  transition: .2s ease;
+}
+
+.btn_container button:hover {
+  background: #0024CB;
+  transition: .2s ease;
+}
+
+.btn_container button:first-child {
+  margin-bottom: 32px;
+  justify-content: space-between;
+}
+
+.btn_container button p {
+  display: flex;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 148%;
+  color: #fff;
+}
+
+.cash P {
+  justify-content: center;
+  width: 100%;
+}

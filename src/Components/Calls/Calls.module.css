@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  flex-direction: column;
+}
+
+.calls {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 24px 0px 57px 40px;
+  box-shadow: 0px 4px 5px #E9EDF3;
+  border-radius: 8px;
+}
+
+.category {
+  display: grid;
+  grid-template-columns: 53px 90px 128px 390px 214px 1fr 1fr;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #899CB1;
+  padding: 0 40px 20px 0;
+}
+
+.el {
+  display: flex;
+  justify-content: start;
+}
+
+.duration {
+  display: flex;
+  justify-content: end;
+}

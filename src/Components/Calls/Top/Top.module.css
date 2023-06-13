@@ -1,0 +1,124 @@
+.top {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.balance {
+  user-select: none;
+  display: flex;
+  width: 100%;
+  max-width: 121px;
+  justify-content: space-between;
+  background: #fff;
+  align-items: center;
+  border-radius: 48px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 148%;
+  padding: 8px 12px;
+  color: #899CB1;
+  margin-right: 48px;
+}
+
+.btn {
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  background: transparent;
+  border: 0;
+}
+
+.money {
+  color: #000;
+}
+
+.balance:hover .money {
+  color: #005FF8;
+}
+
+.container {
+  display: flex;
+}
+
+.date {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
+}
+
+.date li {
+  cursor: pointer;
+  user-select: none;
+  padding: 6px 0 6px 20px;
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #899CB1;
+}
+
+.time input {
+  display: flex;
+  /* max-width: 60px; */
+  background: transparent;
+  border: 0;
+  outline: none;
+  font-size: 14px;
+  color: #899CB1;
+}
+
+.time {
+  display: flex;
+}
+
+.calendar .data_calendar p{
+  color: #122945;
+}
+
+/* .data_calendar input::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+} */
+
+.data_item:hover {
+  background: #DEE4FE;
+  color: #122945;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.arrow:hover path {
+  fill: #005FF8;
+}
+
+.calendar {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 12px;
+}
+
+.calendar:hover path {
+  fill: #005FF8;
+}
+
+.calendar svg {
+  margin-right: 8px;
+}
+
+.calendar p {
+  user-select: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #005FF8;
+}
