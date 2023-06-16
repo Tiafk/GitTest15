@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GitTest15/static/css/main.767e71c9.css",
-    "main.js": "/GitTest15/static/js/main.7eb8be40.js",
+    "main.css": "/GitTest15/static/css/main.8b4ae6c9.css",
+    "main.js": "/GitTest15/static/js/main.383a2a76.js",
     "static/js/787.0c3f432a.chunk.js": "/GitTest15/static/js/787.0c3f432a.chunk.js",
     "static/media/avatar1.svg": "/GitTest15/static/media/avatar1.d7ab781fd5acb7767cf8a7cfa8854459.svg",
     "static/media/avatar2.svg": "/GitTest15/static/media/avatar2.889c4b1b5bd6f944c9f19bdaa5cfebdc.svg",
@@ -29,12 +29,12 @@
     "static/media/sfprodisplay-medium.woff": "/GitTest15/static/media/sfprodisplay-medium.31d6cfe0d16ae931b73c.woff",
     "static/media/sfprodisplay-regular.eot": "/GitTest15/static/media/sfprodisplay-regular.31d6cfe0d16ae931b73c.eot",
     "static/media/sfprodisplay-regular.woff": "/GitTest15/static/media/sfprodisplay-regular.31d6cfe0d16ae931b73c.woff",
-    "main.767e71c9.css.map": "/GitTest15/static/css/main.767e71c9.css.map",
-    "main.7eb8be40.js.map": "/GitTest15/static/js/main.7eb8be40.js.map",
+    "main.8b4ae6c9.css.map": "/GitTest15/static/css/main.8b4ae6c9.css.map",
+    "main.383a2a76.js.map": "/GitTest15/static/js/main.383a2a76.js.map",
     "787.0c3f432a.chunk.js.map": "/GitTest15/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.767e71c9.css",
-    "static/js/main.7eb8be40.js"
+    "static/css/main.8b4ae6c9.css",
+    "static/js/main.383a2a76.js"
   ]
 }
