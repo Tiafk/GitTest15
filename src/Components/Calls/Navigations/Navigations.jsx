@@ -1,9 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import Filters from "./Filters/Filters";
 import c from "./Navigations.module.css";
 import ReactInputMask from 'react-input-mask';
 
 function Navigations({sort, onClickSort, setValue}) {
+
+  const [selectedSort, setSelectedSort] = useState('');
+
+  // const sortCalls
 
   return (
     <div className={c.navigation}>
@@ -19,8 +23,14 @@ function Navigations({sort, onClickSort, setValue}) {
         />
       </div>
       <div className={c.container}>
-        {sort.map((sort, ye) => (
-          <Filters sort={sort} key={ye} onClickSort={onClickSort}/>
+        {sort.map((objSort, ye) => (
+          <Filters 
+            sortId={objSort} 
+            onClickSort={onClickSort} 
+            key={ye} 
+            defaultValue={objSort.list[0].name}
+            defaultTag={objSort.list[0].tag}
+            />
         ))}
       </div>
     </div>

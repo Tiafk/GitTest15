@@ -12,6 +12,9 @@ function Call(props) {
         <div className={a.element}>
           <img src={props.call.person_avatar} alt="#" />
         </div>
+        <div className={a.element}>
+          {props.call.person_web}
+        </div>
         <div className={a.number}>
           {props.call.from_number}
           <p className={a.text}>{props.call.IP}</p>

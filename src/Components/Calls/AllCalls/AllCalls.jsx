@@ -3,6 +3,15 @@ import Call from "./Call/Call";
 import c from "../Calls.module.css";
 
 function Calls({ calls }) {
+
+  if(!calls.length) {
+    return (
+      <h1 style={{textAlign: 'center', color: '#aeaeae', margin: '20px 0 0 0'}}>
+        Ненайдено
+      </h1>
+    )
+  }
+
   return (
     <div className={c.wrapper}>
       {calls.map((call, ye) => (

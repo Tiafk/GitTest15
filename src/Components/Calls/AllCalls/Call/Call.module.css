@@ -13,7 +13,7 @@ hr {
 .set {
   display: grid;
   align-items: center;
-  grid-template-columns: 53px 90px 128px 390px 214px 1fr 1fr;
+  grid-template-columns: 53px 90px 76px 52px 390px 214px 1fr 1fr;
   font-weight: 400;
   font-size: 15px;
   line-height: 140%;
