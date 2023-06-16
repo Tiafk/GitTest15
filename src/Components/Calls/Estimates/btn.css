@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.recognize {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: #005FF8;
+  padding: 9px 24px 11px;
+  background: transparent;
+  border: 1px solid #002CFB;
+  border-radius: 4px;
+}
+
+.script {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #EA1A4F;
+}

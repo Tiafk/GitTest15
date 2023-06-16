@@ -1,0 +1,20 @@
+.dots {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #EA1A4F;
+  margin-right: 28px;
+}
+
+.btn {
+  cursor: pointer;
+  display: flex;
+  border-radius: 4px;
+  border: 1px solid #EA1A4F;
+  padding: 6px 8px;
+  background: #FEE9EF;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #EA1A4F;
+}

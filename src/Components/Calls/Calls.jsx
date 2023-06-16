@@ -9,6 +9,11 @@ import ava3 from "../../img/Calls/ava/avatar3.svg";
 import outgoing from "../../img/Calls/call/call.png";
 import incoming from "../../img/Calls/call/2.png";
 import web from '../../img/Calls/web.png';
+import VeryGood from "./Estimates/VeryGood";
+import Bad from "./Estimates/Bad";
+import Good from "./Estimates/Good";
+import Recognize from "./Estimates/Recognize";
+import NoScript from "./Estimates/NoScript";
 
 function Calls() {
 
@@ -20,7 +25,7 @@ function Calls() {
       person_avatar: ava1,
       from_number: "+7 (987) 567-17-12",
       contact_company: "Rabota.ru",
-      grade: "",
+      grade: <Recognize/>,
       duration: "12:06",
     },
     {
@@ -29,7 +34,7 @@ function Calls() {
       person_avatar: ava2,
       from_number: "+7 (925) 345-17-12",
       contact_company: "",
-      grade: "Плохо",
+      grade: <Bad/>,
       duration: "12:06",
     },
     {
@@ -48,7 +53,7 @@ function Calls() {
       from_number: "Константиний Константинопольский",
       IP: "ООО «Фестивальный эффект»",
       contact_company: "Санкт-Петербург",
-      grade: "Хорошо",
+      grade: <Good/>,
       duration: "12:06",
     },
     {
@@ -57,7 +62,7 @@ function Calls() {
       person_avatar: ava3,
       from_number: "+7 (987) 556-12-18",
       contact_company: "",
-      grade: "Отлично",
+      grade: <VeryGood/>,
       duration: "12:06",
     },
     {
@@ -75,7 +80,7 @@ function Calls() {
       person_avatar: ava1,
       from_number: "+7 (987) 555-12-82",
       contact_company: "",
-      grade: "Плохо",
+      grade: <Bad/>,
       duration: "12:06",
     },
     {
@@ -112,7 +117,7 @@ function Calls() {
       person_avatar: ava2,
       from_number: "+7 (987) 345-17-12",
       contact_company: "",
-      grade: "Распознать",
+      grade: <Recognize/>,
       duration: "12:06",
     },
     {
@@ -131,7 +136,7 @@ function Calls() {
       from_number: "Константиний Константинопольский",
       IP: "ООО «Фестивальный эффект»",
       contact_company: "Санкт-Петербург",
-      grade: "Отлично",
+      grade: <VeryGood/>,
       duration: "12:06",
     },
     {
@@ -149,7 +154,7 @@ function Calls() {
       person_avatar: ava3,
       from_number: "+7 (987) 555-12-82",
       contact_company: "Yandex",
-      grade: "Скрипт не использован",
+      grade: <NoScript/>,
       duration: "12:06",
     },
     {
