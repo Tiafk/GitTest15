@@ -19,6 +19,7 @@ function Calls() {
 
   const [calls, setCalls] = useState([
     {
+      tag: 1,
       in_out: incoming,
       person_web: <img src={web} alt="" />,
       time: "20:00",
@@ -29,6 +30,7 @@ function Calls() {
       duration: "12:06",
     },
     {
+      tag: 1,
       in_out: incoming,
       time: "19:40",
       person_avatar: ava2,
@@ -89,7 +91,7 @@ function Calls() {
       person_avatar: ava3,
       from_number: "+7 (913) 866-69-96",
       contact_company: "Санкт-Петербург источник в три строки, кто-то так пишет, ну ладно, но некрасиво",
-      grade: "",
+      grade: <Good/>,
       duration: "12:06",
     },
     {
@@ -249,12 +251,8 @@ function Calls() {
   //Фильрация по тегам
 
   function useFilter(tag) {
-    console.log(tag);
-    if(tag === 'all') {
-      return
-    }
-    filteredCalls = calls.filter(el => el.tag === tag)
-    return filteredCalls
+    console.log(tag)
+    return filteredCalls = calls.filter(el => el.tag === tag)
   }
 
   //=====================
