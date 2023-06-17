@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import c from "../Calls/Calls.module.css";
 import Top from "./Top/Top";
 import Navigations from "./Navigations/Navigations";
@@ -252,7 +252,6 @@ function Calls() {
 
   function useFilter(tag) {
     console.log(tag)
-    return filteredCalls = calls.filter(el => el.tag === tag)
   }
 
   //=====================

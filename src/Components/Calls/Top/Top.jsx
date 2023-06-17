@@ -14,19 +14,19 @@ function Top() {
 
   const arr = calendar.list;
 
-  function open(e) {
-    let calendar = document.querySelectorAll(".Top_calendar__0CQI6");
+  // function open(e) {
+  //   let calendar = document.querySelectorAll(".Top_calendar__0CQI6");
 
-    calendar.forEach((item) => {
-      item.classList.remove("active");
-      if (e.target.closest(".Top_calendar__0CQI6") === item) {
-        item.classList.add("active");
-        if (e.target.closest(".Top_data_item__xbcUO")) {
-          item.classList.remove("active");
-        }
-      }
-    });
-  }
+  //   calendar.forEach((item) => {
+  //     item.classList.remove("active");
+  //     if (e.target.closest(".Top_calendar__0CQI6") === item) {
+  //       item.classList.add("active");
+  //       if (e.target.closest(".Top_data_item__xbcUO")) {
+  //         item.classList.remove("active");
+  //       }
+  //     }
+  //   });
+  // }
 
   return (
     <div className={c.top}>
@@ -50,7 +50,10 @@ function Top() {
             </defs>
           </svg>
         </div>
-        <div onClick={open} className={c.calendar}>
+        <div 
+        // onClick={open} 
+        className={c.calendar}
+        >
           <div className={c.container}>
             <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M14.4 1.63636H13.6V0H12V1.63636H4V0H2.4V1.63636H1.6C0.72 1.63636 0 2.37273 0 3.27273V16.3636C0 17.2636 0.72 18 1.6 18H14.4C15.28 18 16 17.2636 16 16.3636V3.27273C16 2.37273 15.28 1.63636 14.4 1.63636ZM14.4 16.3636H1.6V5.72727H14.4V16.3636Z" fill="#ADBFDF" />
