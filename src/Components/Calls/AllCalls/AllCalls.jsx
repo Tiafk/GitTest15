@@ -7,7 +7,7 @@ function Calls({ calls }) {
   if(!calls.length) {
     return (
       <h1 style={{textAlign: 'center', color: '#aeaeae', margin: '20px 0 0 0'}}>
-        Ненайдено
+        Не найдено
       </h1>
     )
   }

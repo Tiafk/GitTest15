@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import f from "./Filter.module.css";
-import clickDropOutside from '../../../drop';
+import clickDropOutside from './drop';
 
 function Filters({ sortId, onClickSort, defaultTag, defaultValue}) {
   const arr = sortId.list;
@@ -26,8 +26,7 @@ function Filters({ sortId, onClickSort, defaultTag, defaultValue}) {
           className={f.item} 
           tag={item.tag} 
           key={i} 
-          // onClick={() => setSelect(!select)}
-          onClick={() => onClickSort(item.tag)}
+          onClick={() => {setSelect(!select); onClickSort(item.tag)}}
           >
             {item.name}
           </li>

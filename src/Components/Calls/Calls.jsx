@@ -251,7 +251,10 @@ function Calls() {
   //Фильрация по тегам
 
   function useFilter(tag) {
-    console.log(tag)
+    // console.log(tag);
+    filteredCalls = filteredCalls.filter(type => {
+      return type.tag.toLowerCase().includes(value.toLowerCase())
+    })
   }
 
   //=====================

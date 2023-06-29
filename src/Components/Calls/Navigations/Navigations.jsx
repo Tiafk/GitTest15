@@ -4,11 +4,6 @@ import c from "./Navigations.module.css";
 import ReactInputMask from 'react-input-mask';
 
 function Navigations({sort, onClickSort, setValue}) {
-
-  const [selectedSort, setSelectedSort] = useState('');
-
-  // const sortCalls
-
   return (
     <div className={c.navigation}>
       <div className={c.search}>
