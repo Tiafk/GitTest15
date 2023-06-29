@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GitTest15/static/css/main.1a52e18d.css",
+    "main.css": "/GitTest15/static/css/main.5ae3f143.css",
     "main.js": "/GitTest15/static/js/main.92c90f64.js",
     "static/js/787.0c3f432a.chunk.js": "/GitTest15/static/js/787.0c3f432a.chunk.js",
     "static/media/avatar1.svg": "/GitTest15/static/media/avatar1.d7ab781fd5acb7767cf8a7cfa8854459.svg",
@@ -29,12 +29,12 @@
     "static/media/sfprodisplay-medium.woff": "/GitTest15/static/media/sfprodisplay-medium.31d6cfe0d16ae931b73c.woff",
     "static/media/sfprodisplay-regular.eot": "/GitTest15/static/media/sfprodisplay-regular.31d6cfe0d16ae931b73c.eot",
     "static/media/sfprodisplay-regular.woff": "/GitTest15/static/media/sfprodisplay-regular.31d6cfe0d16ae931b73c.woff",
-    "main.1a52e18d.css.map": "/GitTest15/static/css/main.1a52e18d.css.map",
+    "main.5ae3f143.css.map": "/GitTest15/static/css/main.5ae3f143.css.map",
     "main.92c90f64.js.map": "/GitTest15/static/js/main.92c90f64.js.map",
     "787.0c3f432a.chunk.js.map": "/GitTest15/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a52e18d.css",
+    "static/css/main.5ae3f143.css",
     "static/js/main.92c90f64.js"
   ]
 }
