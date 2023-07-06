@@ -19,7 +19,10 @@ function Calls() {
 
   const [calls, setCalls] = useState([
     {
-      tag: 1,
+      tag: [
+        1, 
+        'allType'
+      ],
       in_out: incoming,
       person_web: <img src={web} alt="" />,
       time: "20:00",
@@ -30,7 +33,6 @@ function Calls() {
       duration: "12:06",
     },
     {
-      tag: 1,
       in_out: incoming,
       time: "19:40",
       person_avatar: ava2,
@@ -240,9 +242,8 @@ function Calls() {
   // Фильтрация по инпуту
 
   const [value, setValue] = useState('');
-
+  
   let filteredCalls = calls.filter(number => {
-    // new RegExp(/+7[(]?\d{3}\)?-?\d{3}-?\d{2}-?\d{2}$/)
     return number.from_number.toLowerCase().includes(value.toLowerCase())
   })
 
@@ -251,10 +252,10 @@ function Calls() {
   //Фильрация по тегам
 
   function useFilter(tag) {
-    // console.log(tag);
-    filteredCalls = filteredCalls.filter(type => {
-      return type.tag.toLowerCase().includes(value.toLowerCase())
-    })
+    console.log(tag);
+    // filteredCalls = filteredCalls.filter(type => {
+    //   return type.tag?.toString().includes(tag)
+    // })
   }
 
   //=====================
@@ -262,10 +263,10 @@ function Calls() {
   return (
     <div className={c.wrapper}>
       <Top />
-      <Navigations 
-        setValue={setValue} 
-        sort={sort} 
-        onClickSort={useFilter} 
+      <Navigations
+        setValue={setValue}
+        sort={sort}
+        onClickSort={useFilter}
       />
       <div className={c.calls}>
         <div className={c.category}>
